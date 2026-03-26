@@ -23,4 +23,3 @@ def test_dropdown(page:Page):
     page.get_by_placeholder("Current Address").fill("rajnagar colony")
     page.get_by_role("button",name="Submit").click()
     page.get_by_role("button", name="Close").click()
-    page.wait_for_timeout(3000)
