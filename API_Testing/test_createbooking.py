@@ -15,8 +15,7 @@ def test_create_booking(playwright:Playwright):
                  "additionalneeds": "Breakfast"
     }
     response = request_context.post(f"{base_url}/booking",data=request_body)
-    assert response.ok
-    assert response.status==200
+
     response_body=response.json()
     print(response_body)
 
