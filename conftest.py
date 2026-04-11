@@ -1,11 +1,9 @@
 import pytest
+import allure
 from pathlib import Path
 from slugify import slugify
 
 
-# -----------------------------------
-# Screenshot + HTML report integration
-# -----------------------------------
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item, call):
     pytest_html = item.config.pluginmanager.getplugin("html")
@@ -14,7 +12,6 @@ def pytest_runtest_makereport(item, call):
 
     extra = getattr(report, "extra", [])
 
-    # Execute only after test step
     if report.when == "call":
         xfail = hasattr(report, "wasxfail")
 
@@ -27,9 +24,18 @@ def pytest_runtest_makereport(item, call):
             file_name = slugify(item.nodeid) + ".png"
             screenshot_path = screenshot_dir / file_name
 
+            # Take screenshot
             page.screenshot(path=str(screenshot_path))
 
+            # Attach to pytest-html report
             if pytest_html:
                 extra.append(pytest_html.extras.png(str(screenshot_path)))
+
+            # Attach to Allure report
+            allure.attach.file(
+                str(screenshot_path),
+                name="Failure Screenshot",
+                attachment_type=allure.attachment_type.PNG
+            )
 
         report.extra = extra
