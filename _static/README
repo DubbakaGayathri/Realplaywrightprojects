@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Playwright Week 1 Test Suite â€“ The Internet - </title>
+<meta name="description" content="Complete test suite for https:&#x2f;&#x2f;the-internet.herokuapp.com built during Week 1. Features Proper explicit waits (wait_for_url, locator.wait_for, loading…">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<style>
+body{font-family:Helvetica,sans-serif;margin:0}
+header,main,footer{padding:2em}
+header{background:darkslategray} header a{color:white;text-decoration:none}
+h1{margin-top:0} main{max-width:60em}
+</style>
+
+<link rel="canonical" href="/README">
+<link rel="alternate" href="/feed.xml" type="application/rss+xml" title="RSS">
+
+</head>
+<body class="page page__README">
+<header><a href="/"></a></header>
+<main class="content">
+
+
+
+
+
+<h1>Playwright Week 1 Test Suite â€“ The Internet</h1>
+
+
+<p>Complete test suite for https://the-internet.herokuapp.com built during Week 1.</p>
+
+<h2>Features</h2>
+
+<ul>
+<li>Proper explicit waits (<code>wait_for_url</code>, <code>locator.wait_for</code>, loading bar hidden, etc.)</li>
+<li>Never uses <code>time.sleep()</code></li>
+<li>Uses <code>pytest</code> + Playwright sync API</li>
+<li>Clean, commented, refactored code</li>
+<li>All tests green</li>
+</ul>
+
+<h2>Pages Covered</h2>
+
+<ul>
+<li>Dynamic Loading (Example 1 &amp; 2)</li>
+<li>Dynamic Controls</li>
+<li>Login (success + failure with URL wait)</li>
+<li>Locators ,assertions ,actions ,Checkboxes, Dropdown, JavaScript Alerts, Frames, Hovers, Infinite Scroll, File Upload, Sortable Tables</li>
+</ul>
+
+<h2>How to Run</h2>
+
+<p>```bash
+pip install -r requirements.txt
+playwright install
+pytest -v</p>
+
+
+
+
+    <ul class="page__list">
+    
+        <li><a href="&#x2f;.pytest_cache&#x2f;README">pytest cache directory #</a></li>
+    
+        <li><a href="&#x2f;.pytest_cache&#x2f;README">pytest cache directory #</a></li>
+    
+        <li><a href="&#x2f;bin&#x2f;README">See building instructions at [`&#x2f;browser_patches&#x2f;winldd&#x2f;README.md`](..&#x2f;..&#x2f;..&#x2f;browser_patches&#x2f;winldd&#x2f;README.md)
+
+</a></li>
+    
+        <li><a href="&#x2f;driver&#x2f;README">win_amd64.whl driver package</a></li>
+    
+        <li><a href="&#x2f;driver&#x2f;README">win_amd64.whl driver package</a></li>
+    
+        <li><a href="&#x2f;idna&#x2f;LICENSE">BSD 3-Clause License
+
+Copyright (c) 2013-2025, Kim Davies and contributors.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and&#x2f;or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+&quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+</a></li>
+    
+        <li><a href="&#x2f;idna&#x2f;LICENSE">BSD 3-Clause License
+
+Copyright (c) 2013-2025, Kim Davies and contributors.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and&#x2f;or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+&quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+</a></li>
+    
+        <li><a href="&#x2f;licenses&#x2f;LICENSE">BSD 3-Clause License
+
+Copyright (c) 2013-2025, Kim Davies and contributors.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and&#x2f;or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+&quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+</a></li>
+    
+        <li><a href="&#x2f;licenses&#x2f;LICENSE">BSD 3-Clause License
+
+Copyright (c) 2013-2025, Kim Davies and contributors.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and&#x2f;or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+&quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+</a></li>
+    
+        <li><a href="&#x2f;package&#x2f;README">playwright-core</a></li>
+    
+        <li><a href="&#x2f;package&#x2f;README">playwright-core</a></li>
+    
+    </ul>
+
+
+
+</main>
+<footer><p>&copy; </footer>
+</body>
+</html>
