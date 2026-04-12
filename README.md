@@ -1,6 +1,4 @@
-# Playwright Week 1 Test Suite – The Internet
 
-Complete test suite for https://the-internet.herokuapp.com built during Week 1.
 
 ## Features
 - Proper explicit waits (`wait_for_url`, `locator.wait_for`, loading bar hidden, etc.)
